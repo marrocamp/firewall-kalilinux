@@ -15,7 +15,7 @@ proteção para o sistema operacional
  ./fireall.sh
  
  
-# [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/marrocamp/firewall-kalilinux) # 
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](https://github.com/marrocamp/firewall-kalilinux)
  
  
  
