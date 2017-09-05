@@ -364,17 +364,7 @@ PATH='/sbin'
         iptables -A POSTROUTING -t nat -o eth0 -j MASQUERADE     
 
         echo 'OK -> mascarando Packages de saida ...'   
-
-
-
-        echo
-
-        mkdir -p /var/lock/subsys/
-
-        touch /var/lock/subsys/iptables 
-
-
-      }   
+       
 
 
    stop() {
@@ -418,9 +408,6 @@ PATH='/sbin'
         rm -f /var/lock/subsys/iptables     
 
   } 
-
-
- and in /etc/rc.local add before "exit 0"
 
 # Lançamento minhas regras do netfilter 
 if [ -e '/etc/firewall.sh' ]
